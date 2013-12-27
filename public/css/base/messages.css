@@ -1,0 +1,43 @@
+/*
+ * Color Palette:
+ * Yellow: #FFBE2C
+ * Red: #A31523
+ * DarkRed:#610F1C
+ * Gray: #CCC
+ *
+ * Light green: 98fb98
+ *
+ *
+ */
+ 
+#notifications{
+    left:300px;
+    position:absolute;
+    top:200px;
+    z-index:100000;
+}
+
+
+#notifications span span{
+    background:rgba(0,0,0,0.8);
+    color:white;
+    display: block;
+    margin-bottom:5px;
+    padding:20px;
+}
+
+.warning_messages{
+    background-color: #FFBE2C;
+    color:black;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+}
+
+
+
+.success_message{
+    background-color: #98fb98;
+    color:black;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+}

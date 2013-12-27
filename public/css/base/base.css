@@ -1,0 +1,771 @@
+/*
+
+palette:
+        blue (dark):		#0C2757
+        blue (lighter):		#134080
+        red:				#800C1E
+        yellow:				#D5922F
+*/
+
+a:hover{
+        color: #D5922F;
+}
+
+.big_banner{
+        margin:10px 0 10px 0
+}
+
+article{
+        font-family: helvetica, arial, sans-serif-serif;
+}
+
+article h1{
+        font-family: 'Georgia', Times, serif;
+}
+
+article p{
+        margin-bottom:20px
+}
+
+body{
+        background:#fff;
+        font-family: 'Georgia', Times, serif;
+        font-size: 13px;
+        height:inherit;
+        margin: auto;
+        padding:0 0 70px 0;
+        position:relative;
+        text-align:left;
+        width: 955px;
+}
+
+
+  
+  b,strong,h1,h2,h3,h4,h5,h6{
+        font-weight:bold;
+        color:#800C1E;
+  }
+  
+    h1,h2,h3,h4,h5,h6{
+        display:block;
+  }
+  
+  
+  html, body,article{
+    min-height: 100%;
+    height: 100%;
+}
+
+html>body, html>body #wrapper,
+html>body, html>body #container{
+    height: 100%;
+}
+
+
+article{
+        margin-bottom:40px;
+        height:auto;
+}
+
+
+article h1.cat{
+        text-transform:uppercase;
+}
+
+
+.button{
+        background:#D5922F url(img/sprite.png) 0 -80px;
+        border:2px solid #0C2757;
+        color:#0C2757;
+        display:block;
+        font-family:Helvetica,Arial,Sans-serif;
+        font-size:10px;
+        font-weight:bold;
+        height:20px;
+        left:15px;
+        line-height:20px;
+        position:absolute;
+        text-align:center;
+        text-decoration:none;
+        top:230px;
+        width:90px;
+}
+
+.button:hover{
+        color:inherit
+}
+
+
+.clear{
+        clear:both;
+        display:block;
+}
+
+#col2{
+        background: #f1f1f1;
+        height:600px;
+        position: absolute;
+        right:0px;
+        top: 232px;;
+        width: 180px;
+}
+
+
+.come_raggiungere img{
+        margin-left:-183px;
+}
+
+.dove_dormire img{
+        margin-left:-367px;
+}
+
+.descrizione_foto{
+        border:1px solid #999;
+        display:block;
+        font-family:arial;
+        font-size:0.9em;
+        font-weight:bold;
+        margin-top:-5px;
+        padding:10px;
+        width:328px;
+}
+
+footer{
+        background:#fff;
+        background:rgba(255,255,255,0.8);
+        border-top:1px solid gray;
+        clear:both;
+        margin:0;
+        width:100%;
+        padding:10px 0 10px 0;
+        position:relative;
+}
+
+
+h1{
+        color:#800C1E;
+        font-size:250%;
+        font-weight:bold;
+}
+
+header{
+        background: #f5f5f5 url('img/MVB_Header.png') no-repeat left top;
+        display:block;
+        color: #fff;
+        height:202px;
+        position:relative;
+        width: 100%;
+}
+
+header a{
+        color:#fff;
+}
+
+
+header h1{
+        overflow: hidden;
+        font-size:100%;
+        text-indent: -3000px;
+}
+
+#gallery{
+        height:300px;
+        overflow:hidden;
+        position:relative;
+        width:575px;
+}
+
+
+#gallery img {
+        border:none;
+        float:left;
+        position:absolute;
+}
+
+
+#gallery img.show {
+        z-index:500
+}
+
+
+
+
+#gallery h2,
+#gallery h3
+{
+        background:#800C1E;
+        background:rgba(128,12,30,0.85);
+        color:#fff;
+        display:block;
+        font-size:18px;
+        height:30px;
+        left:0;
+        line-height:200%;
+        position:absolute;
+        text-indent:20px;
+        top:0;
+        width:100%;
+        z-index:1000;
+}
+
+#gallery h3{
+        top:30px;
+}
+
+#gallery h3
+{
+        font-size:13px;
+        font-style:italic;
+        line-height:normal;
+}
+        
+#gallery p{
+        background:#0C2757;
+        background:rgba(12,39,87,0.85);
+        color:#fff;
+        float:left;
+        height:500px;
+        margin-top:60px;
+        padding:20px;
+        position:absolute;
+        width:185px;
+}
+
+.gallery_img{
+        left:0;
+        position:absolute;
+        top:0;
+        z-index:500;
+}
+
+
+
+.home_intro{
+        border:1px solid grey;
+        color: #333;
+        font-family:helvetica,arial,verdana,sans-serif;
+        line-height:normal;
+        margin:-3px 0 10px 0;
+        padding:15px;
+        width:543px;
+}
+
+.home_intro h2{
+        color:#800C1E;
+        font-size:2em;
+        font-weight:bold;
+}
+
+.home_intro h3{
+        color:#000;
+        font-size:1.2em;
+        font-weight:bold;
+}
+
+html{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#login{
+        font-family: arial,verdana,helvetica,sans-serif;
+        position:absolute;
+        right: 30px;
+        top:20px;
+}
+
+
+.left{
+        float:left;
+        margin-right:5px;
+}
+
+#logo{
+        display:block;
+        float:left;
+        height:200px;
+        width:180px;
+}
+
+
+
+#loghi_sponsor,
+#loghi_sponsor_2{
+        float:left;
+        width:470px;
+}
+
+#loghi_sponsor a{
+        margin-right:10px
+}
+
+
+#loghi_sponsor_2{
+        border-left:1px solid grey;
+        float:right;
+}
+
+
+#loghi_sponsor li,
+#loghi_sponsor_2 li{
+        float:left;
+}
+
+#loghi_sponsor a,
+#loghi_sponsor_2 a{
+        background:url(img/sprites_loghi.gif) no-repeat;
+        border:1px solid #FFF;
+        color:black;
+        display:block;
+        font-size:0.8em;
+        margin:0 10px 20px 0;
+       overflow:hidden;
+       padding:80px 0px 0px 0px;
+       text-align:center;
+       text-decoration:none;
+       text-transform:uppercase;
+       width:100px;
+}
+
+#loghi_sponsor a:hover,
+#loghi_sponsor_2 a:hover{
+        border-color:grey;
+}
+
+a#confcommercio,
+a#camera_commercio,
+a#carlino,
+a#alkalina,
+a#bp_vicenza,
+a#italian_label{
+        text-indent:-2000px;
+}
+
+
+a#camera_commercio{
+        background-position:-105px 0;
+        width:150px;
+}
+
+a#accademia_cucina{
+        background-position:-250px 0;
+        width:120px;
+}
+
+a#lions_club{
+        background-position:-344px 0;
+        width:110px;
+}
+
+a#carlino{
+        background-position:-460px -5px;
+        width:120px;
+}
+
+a#comune_bologna{
+        background-position:-585px 0;
+        width:100px;
+}
+
+a#provincia_bologna{
+        background-position:-695px 0;
+        width:100px;
+}
+
+a#regione_romagna{
+        background-position:-800px -15px;
+        width:110px;
+}
+
+
+a#apt_romagna{
+        background-position:-920px -10px;
+        width:100px;
+}
+
+
+
+a#bp_vicenza{
+        background-position:-1060px 0;
+        margin-left:20px;
+        width:120px;
+}
+
+
+a#alkalina{
+        background-position:-1177px 0;
+        width:120px;
+}
+
+
+a#italian_label{
+        background-position:-1290px 0;
+        width:100px;
+}
+
+
+
+
+.bubbletooltip_tip
+{
+    padding: 5px;
+    color: #fff;
+    background-color: #800C1E;
+    background-color: rgba(128, 12, 30, 0.8);
+    text-shadow: 0 0 3px #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    text-align:center;
+    width:100px;
+}
+
+.bubbletooltip_tip:after
+{
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-top-color: #800C1E;
+    border-top-color: rgba(128, 12, 30, 0.8);
+    bottom: -20px;
+    right: 45px;
+    z-index: -1;
+}
+
+
+
+
+
+
+#facebook_comments{
+        position:relative;
+width:100%;
+}
+
+.fb-like{
+        position:absolute;
+        right:0;
+}
+
+
+h6#contributo {
+        margin:-16px 0 0 490px;
+}
+#loghi_sponsor .left{
+         border-right:1px solid grey;
+        float:left;
+        margin-right:-1px;
+        width:470px
+}
+
+
+#loghi_sponsor .right{
+        border-left:1px solid grey;
+        float:right;
+        margin-left:0;
+        width:470px
+}
+
+nav#main_nav{
+        background: #800C1E url(img/portico.gif) no-repeat 930px 7px;
+        height:30px;
+        overflow:hidden;
+        padding:0 0 0 10px;
+        text-transform: uppercase;
+        width: 945px;
+}
+
+nav a{
+        background:url(img/portico.gif) no-repeat 7px center;
+        color: #FFF;
+        display: block;
+        float: left;
+        font: bold;
+        line-height:30px;
+        padding:0 15px 0 30px;
+        text-align: center;
+        text-decoration: none;
+}
+
+
+nav a:hover{
+        color: #D5922F;
+        display: block;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+}
+
+
+#page_content{
+        margin:10px 0 0 0;
+       float:left;
+       width:570px
+}
+
+
+.ristorante_in_lista{
+        border:1px solid #ccc;
+        float:left;
+        padding:5px;
+        margin:10px;
+        width:220px;
+        height:100px;
+        position:relative;
+        text-align:left;
+}
+
+
+
+.ristorante_in_lista a{
+       /* bottom:5px;*/
+        display:block;
+       /* position:absolute;
+        right:5px;*/
+        
+}
+
+
+.ristorante_in_lista address{
+        font-style:italic;
+}
+
+
+.ristorante_in_lista h4{
+        font-size:14px;
+}
+
+div.ristoranti{
+        border:2px inset #eee;
+        height:300px;
+        margin-bottom:20px;
+        overflow:auto;
+}
+
+.ristoranti h2{
+        clear:both;
+        font-size:2em;
+        margin-top:20px;
+}
+
+#ristoranti h2{
+        color:#134080;
+        font-size:2em !important
+}
+
+.row{
+        clear:both;
+        display:block;
+        margin-bottom:30px;
+        margin-top:20px;
+        width:100%;
+}
+
+
+.row .read_more{
+        margin-top:20px;
+}
+
+#site_payoff{
+        background: #134080;
+        display:block;
+        height: 120px;
+        left:180px;
+        /*margin:0 0 0 180px;*/
+        padding: 27px 20px 13px 20px;
+        position:absolute;
+        top:42px;
+        width: 150px;
+}
+
+
+
+
+.small_intro_img{
+        height:100px;
+        overflow:hidden;
+}
+
+#small_intros{
+        border-left:1px solid #999;
+        float:left;
+        margin:0 0 0 8px;
+        padding-left:15px;
+        position: relative;
+        width: 350px;
+}
+
+#small_intros h3{
+        background:#800C1E;
+        color:#fff;
+        display:block;
+        height:35px;
+margin-bottom:0px;
+        overflow:hidden;
+        padding:5px;
+        width:100%;
+
+}
+
+
+#small_intros .related_box h3 a{
+        color:#FFF;
+        text-decoration:none;
+        
+}
+
+.related_box{
+        float:left;
+        height:240px;
+        margin-right:10px;
+        width:180px;
+        overflow:hidden;
+        position:relative;
+}
+
+.home .related_box{
+        height:auto;
+}
+
+.related_box img{
+		display:block;
+       width:100%;
+		margin-bottom:20px;
+}
+
+.related_box p{
+		margin-top:5px;
+}
+
+.related_box h3{
+                height:35px;
+		margin-top:10px;
+		margin-bottom:10px;
+        
+}
+
+.related_box h3 a{
+        color:#800C1E;
+        text-decoration:none;
+        
+}
+
+
+#small_intros .related_box{
+        height:230px;
+        width:165px;
+}
+
+#small_intros p{
+        font-size:12px;
+        margin-bottom:30px;
+        padding-bottom:20px;
+        position:relative;
+}
+
+#small_intros p a{
+        bottom:0px;
+        color:#0C2757;
+        font-weight:bold;
+        position:absolute;
+        right:0px;
+}
+
+
+.squared_banner{
+        color:white;
+        display:block;
+        height:220px;
+        font-weight:bold;
+        font-size:20px;
+        line-height:290px;
+        margin-top:15px;
+        margin-bottom:15px;
+        text-align:center;
+        width:340px;
+        
+}
+
+
+#text_ads{
+        border-left:1px solid #666;
+        padding:15px 0 0 20px;
+        position: absolute;
+        right:10px;
+        top: 385px;
+        width: 135px;
+}
+
+#text_ads a{
+        color:#800C1E;
+        font-weight:bold;
+}
+
+#text_ads p{
+        margin:0 0 20px 0;
+}
+
+#text_ads .display_url{
+        color:#134080;
+        display:block;
+        font-size:90%;
+}
+
+nav#lang{
+    background:url(../International/flags.gif) repeat-x;
+    height:26px;
+    font-size:11px;
+    line-height:15px;
+    padding:0;
+    width:100%;
+    text-transform:none;
+}
+
+nav#lang li{
+        float:left;
+        margin-left:43px;
+        padding:0;
+        text-align:center;
+        width:auto;
+}
+
+nav#lang li.selected{
+        background:url(../International/flags.gif) repeat-x 10px -27px;
+}
+
+nav#lang li a{
+    font-family:Arial,Helvetica,sans-serif;
+    background:url(../International/flags.gif) no-repeat 10px -95px;
+    line-height:26px;
+    padding:0 13px 0 0;
+    text-align:left;
+    text-indent:35px;
+}
+
+#lang a.en{background-position:10px -122px}
+#lang a.fr{background-position:10px -149px}
+#lang a.de{background-position:10px -176px}
+#lang a.es{background-position:10px -203px}
+#lang a.zh{background-position:10px -230px}
+#lang a.ru{background-position:10px -257px}
+
+
+.table_row{
+        border-bottom:1px solid gray;
+        white-space:nowrap;
+        
+}
+
+.table_row span{
+        display:block;
+}
+
+
+
+
+.twtr-widget p{
+        margin:20px;
+}
+
+
+

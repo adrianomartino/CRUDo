@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^www.crudophp.com$ [NC]
+#RewriteRule ^(.*)$ http://crudophp.com/$1 [R=301,L]
+
+#Rewrite only if the file or folder doesn't exist (Make sure directory listing is disabled on your server!)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule .* index.php

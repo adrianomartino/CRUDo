@@ -1,0 +1,26 @@
+/*
+This note has been created on Fri Dec 27 - 2013
+after 3 Years that this system is being parked in my hard drive.
+
+This is the plan and I'm finally going to use version control and github!
+
+© Adriano Martino 2013 - adrianomartino.com
+*/
+
+
+Automate language menu based on config file
+
+Create CSS for default Home View, List view and Specific view
+
+Enable Login
+
+Create script to install basic DB
+
+Consolidate update process
+
+Separate every components functions into different folders with Model, View and Controller
+for Each function for easy plug in plug off
+
+Create CSV database import tool
+
+Create automated form to direct edit the config.ini files

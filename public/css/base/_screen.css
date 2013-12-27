@@ -1,0 +1,546 @@
+/*
+ * Color Palette:
+ * Yellow: #FFBE2C
+ * Red: #A31523
+ * DarkRed:#610F1C
+ * Gray: #CCC
+ * Sand C7B299
+ *
+ */
+
+body{
+    background-color:#fff !important;
+    height:inherit;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    text-align:center;
+  }
+  
+  
+  
+  html, body, #wrapper, #container {
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+html>body, html>body #wrapper,
+html>body, html>body #container{
+    height: auto;
+}
+
+
+
+    /*Load sprite*/
+    .big_button,
+    #menu_provincie a,
+    #numero_telefono,
+    form#search,
+    #header,
+    input[type="submit"],
+    div#main_menu,
+    #main_menu .selected,
+    #main_menu li a,
+    input.square_button,
+    #mdg_button,
+    #newsletter_box,
+    #social_media li a
+    {
+      background:url('sprites.png') top left no-repeat;
+      display:block;
+      position:relative;
+    }
+    
+    #container{
+      margin:auto;
+      width:955px;
+      position:relative;
+      text-align:left;
+    }
+    
+    
+    #center{
+      display:inline!important;
+      float:left;
+      min-height:900px;
+      width:515px;
+      border:1px solid white;
+      margin-left:210px;
+      margin-top:180px;
+    }
+    
+    
+    
+    #center img{
+     float:left;
+      width:220px;;
+    }
+    
+    
+    .info_ristorante{
+      float:left;
+      margin-left:10px;
+      
+    }
+    
+    
+    
+    .info_ristorante .piatto{
+      border:1px solid white;
+      clear:both;
+      display:block;
+      margin-bottom:10px;
+      
+    }
+    
+    
+    #center{
+     margin-bottom: 50px;
+    }
+    
+    #center h1{
+     color:#A31523;
+     font-size:1.8em;
+     margin:0
+    }
+    
+    #center a:visited{
+      
+      color:inherit;
+    }
+    
+     h4{
+    
+      font-weight:normal;
+    }
+    
+    h4 span{
+      color:#A31523;
+      font-weight:bold;
+    }
+    
+    h3{
+      color:#A31523;
+      
+    }
+    
+    .cuoco_patron{
+      margin-top: 15px !important;
+    }
+    
+    .rist_row{
+      
+      margin-top: 25px;
+      text-align: justify;
+    
+    }
+    
+    
+    .rist_row img{
+      margin-top: -15px;
+      margin-left: 10px;
+      right:15px;
+    float:right;
+    }
+    
+    .rist_row h3{
+    display: inline;
+    }
+    
+    .rist_row p{
+    float:left;
+    width:250px;
+    }
+    
+    
+    .rich_text_wrapper{
+      
+    
+      float:left;
+      width:250px
+      
+    }
+    
+    
+    
+    #header{
+      height:160px;
+      position:absolute;
+      width:955px;
+    }
+    
+    legend{
+      color:inherit;
+    }
+    
+    #first_column{
+      color:white;
+      left:0;
+      top:160px;
+      position:absolute;
+      width:193px;
+    }
+    
+    #first_column ul,
+    #second_column ul,
+    #first_column li,
+    #second_column li{
+      display:block;
+      margin:0;
+      padding:0;
+    }
+    
+    #logo{
+      height:160px;
+      margin-top:0;
+      overflow:hidden;
+      position:relative;
+      text-indent:-2000px;
+      width:160px;
+    }
+    
+    #logo img{
+      left:0px;
+      position:absolute;
+      top:0px
+      }
+      
+      .big_button{
+        background-position: -230px -7px;
+        height:145px;
+        width:260px;
+        position:absolute;
+        text-indent:-3000px;
+        top:7px;
+        left:230px;
+      }
+      
+      #cii_button{
+        background-position: -670px -7px;
+        left:670px;
+      }
+      
+      #numero_telefono{
+        background-position: -500px -59px;
+        height:37px;
+        left:500px;
+        position:absolute;
+        text-indent:-3000px;
+        top:59px;
+        width:150px;
+      }
+      
+      form#search{
+        background-position:0 -160px;
+        display:block;
+        height:140px;
+        margin:0;
+        padding:0;
+        position:relative;
+        width:190px;
+      }
+      
+      
+      form#search fieldset{
+        left:10px;
+        top:50px;
+        position:absolute;
+        
+      }
+      
+      form#search p,
+      #small_search_box{
+        display:block;
+        clear:both;
+      }
+      
+      form#search p{
+        font-size:11px;
+        margin:0;
+        padding:0;
+      }
+      
+      #small_search_box{
+        float:left;
+        height:19px;
+        width:117px;
+      }
+      
+      #romagna_checkbox{
+        clear:right;
+      }
+      
+      
+      
+      input.square_button{
+        background-position:-418px -202px;
+        border:1px outset red;
+        float:left;
+        height:21px;
+        margin:2px 0 0 5px;
+        text-indent:-3000px;
+        width:21px;
+      }
+      
+      
+      div#main_menu{
+        background-position:-566px -165px;
+        border:1px solid #FFBE2C;
+        font-size:80%;
+        padding:0;
+        width:187px;
+      }
+      
+      #main_menu .selected{
+        background-position:-200px -170px !important;
+        border-bottom:none;
+        font-size:110%;
+        font-weight:bold;
+        height:33px;
+        line-height:250%;
+        margin-left:-13px;
+        margin-top:-1px;
+        text-indent:25px;
+        width:197px;
+      }
+      
+      #main_menu ul{
+        background-color:#A31523;
+        margin:auto;
+        margin-bottom:12px;
+        width:167px;
+      }
+      
+      #main_menu ul li{
+        text-align:center !important;
+      }
+      
+      #main_menu ul li a{
+        background-position:145px -383px !important;
+        border-bottom:1px solid #FFF;
+        display:block;
+        color:#FFF;
+        height:25px;
+        line-height:240%;
+        margin:auto;
+        text-align:left;
+        text-decoration:none;
+        text-indent:10px;
+        text-transform:uppercase;
+        width:95%;
+      }
+      
+      #main_menu ul li a:hover{
+        font-weight:bold;
+      }
+      
+      
+      #newsletter_box{
+        background-position:-754px -162px;
+        height:209px;
+        margin:0;
+        position:relative;
+        right:0;
+        width:201px;
+      }
+      
+      #newsletter_box p {
+        margin-top:15px !important;
+        
+      }
+      
+      #newsletter_box form{
+        margin-left:20px;
+      }
+      
+      #newsletter_email{
+        clear:both !important;
+        height:19px;
+        width:117px;
+      }
+      
+      
+      
+      .title_link{
+        color:#A31523;
+        display:block;
+        font-size:120%;
+        font-weight:bold;
+      }
+      
+      
+      #second_column p{
+        font-size:90%;
+        font-family:Arial;
+        margin:15px;
+      }
+      
+      #social_media{
+        
+          margin:10px 10px 10px 10px;
+          width:100px;
+      }
+      
+      #social_media p{
+      
+          margin:0px 0 0 0px;
+          padding:0;
+        
+      }
+      
+      #social_media li{
+        float:left;
+        margin-right:5px;
+      }
+      
+      #social_media li a{
+        background-position:-416px -267px;
+        height:19px;
+        text-indent:-3000px;
+        width:19px;
+      }
+      
+      #facebook{
+        background-position:-416px -287px !important;
+      }
+      
+      #youtube{
+        background-position:-416px -307px !important;
+      }
+      
+      #twitter{
+        background-position:-416px -327px !important;
+      }
+      
+      .text_details{
+        font-size:90%;
+        font-weight:normal;
+      }
+      
+      .text_details a{
+        color:#000;
+      }
+      
+      
+      
+      #mdg_button{
+        background-position:-200px -206px;
+        height:87px;
+        margin-top:-10px;
+        position:relative;
+        right:0;
+        width:200px;
+      }
+      
+      #mdg_button a{
+        text-indent:-3000px;
+      }
+      
+      #mdg_button a span{
+        display:block;
+        margin:38px 0 0 7px !important;
+        text-indent:0px;
+      }
+      
+      
+      /*
+       Snippet_link
+       To create an active area of an entire paragraph,
+       having as a link only the title
+      */
+      
+      .snippet_link a{
+        display:block;
+        height:inherit;
+        text-decoration:none;
+        width:100%;
+      }
+    
+      .snippet_link a span{
+        color:#FFF;
+        font-size:95%;
+        font-weight:normal;
+        text-transform:none;
+      }
+      
+      
+      
+      
+      .clear{
+        
+        clear:both;
+        
+      }
+      
+      
+      .last{
+        border:none !important;
+      }
+      
+      
+      #menu_provincie{
+        background:#610F1C;
+        border:1px solid #610F1C;
+        display:block;
+        font-size:90%;
+        margin-left:15px !important;
+        position:relative;
+        width:155px;
+      }
+      
+      #menu_provincie li{
+        color:#FFECA1;
+        margin:20px 0 20px 25px;
+        text-transform:uppercase;
+      }
+      
+      
+      #menu_provincie a{
+        background-position:0 -405px;
+        color:#FFF;
+        margin:0 0 0 5px;
+        text-indent:12px;
+      }
+      
+    
+      
+      #menu_provincie ul li{
+        margin:0;
+    
+      }
+      
+      
+      #second_column{
+        right:0;
+        top:150px;
+        position:absolute;
+        width:200px;
+      }
+      
+      .squared_banner{
+        background-color:#CCC;
+        display:block;
+        height:200px;
+        margin:5px 0 5px 0;
+        width:200px;
+      }
+      
+      .squared_banner a{
+        color:#000;
+        display:block;
+        font-size:130%;
+        height:inherit;
+        line-height:180px;
+        text-align:center !important;
+        width:100%;
+      }
+      
+      
+      
+      
+      .youtube{
+        margin-top:10px;
+        display:block;
+        height:416px;
+        width:515px;
+      }

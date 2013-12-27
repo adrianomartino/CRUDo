@@ -1,0 +1,13 @@
+nav li{
+        float: left;
+}
+
+#small_intros{
+        padding-left:10px;
+        width: 340px;
+}
+
+
+#small_intros .related_box{
+        width: 160px;
+}

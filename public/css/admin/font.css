@@ -1,0 +1,98 @@
+/*
+ * Admin Font.css
+ *
+ *
+ *
+ */
+
+
+
+#add_new_list a:hover{
+	text-decoration:none;
+}
+
+
+#add_new_list ul{
+    list-style:none;
+    text-align:right;
+}
+
+#add_new_list ul a{
+    line-height:25px;
+    text-indent:15px;
+}
+
+#add_new_list li{
+    list-style:none;
+    text-align:left;
+}
+
+#admin_header{ text-align:right }
+
+#admin_header p{ margin:5px 20px 5px 0 }
+
+#aggiungi{
+    font-weight:bold;
+    line-height:170%;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+
+body {
+    font-size: 13px;
+    font-family: Arial, SunSans-Regular, Sans-Serif;
+}
+
+
+form span{
+    text-align:left;
+}
+
+
+#items_menu{
+    text-align:left;
+}
+
+
+#items_menu li{
+  line-height:30px;
+  list-style:outside square;
+  margin:0 0 0 20px;
+  white-space:nowrap;
+}
+
+
+
+#items_menu a{
+    text-align:left;
+    text-decoration:none;
+}
+
+
+#items_menu a:hover{
+  text-indent:5px
+}
+
+
+
+
+
+#items_menu a:hover,
+#items_menu a.selected{
+  font-weight:bold
+}
+
+
+
+
+label{
+    font-weight:bold;
+}
+
+
+#name_or_title{
+  font-size: 21px;
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+/*
+ * Color Palette:
+ * Yellow: #FFBE2C
+ * Red: #A31523
+ * DarkRed:#610F1C
+ * Gray: #CCC
+ *
+ */
+img{
+margin-right: 10px;
+width:250px;
+}
+h3{
+	color: #A31523;
+	margin-bottom: :2px;
+}
+
+p{
+	float: left;
+	font-size:1.2em;
+	color:black;
+}
+
+
+textarea{
+height:1000px;
+width:600px;
+}

@@ -1,0 +1,1 @@
+This folder is intended for special views that are different from all the others, the views are to be made vi the same name as the specific URL.

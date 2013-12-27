@@ -1,0 +1,196 @@
+/*
+    palette:
+    blue (dark):		#0C2757
+    blue (lighter):		#134080
+    red:			#800C1E
+    yellow:			#D5922F
+*/
+
+
+
+
+/*list*/
+
+
+.squared_thumb{
+    display:block;
+    height:80px;
+    overflow:hidden;
+    width:80px;
+}
+
+.icon_and_title{
+    float:left;
+    font-size:11px;
+    margin:0 30px 0 0;
+    width:80px;
+    height:150px;
+}
+
+
+
+.icon_and_title .horizontal img{
+    height:80px
+}
+
+.icon_and_title .vertical img{
+    width:80px
+}
+
+
+.icon_and_title a{
+    color:#666;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+.snippets{
+    margin-left:5%;
+    position:relative;
+    text-align:left;
+    text-indent:10px;
+    width:90%;
+}
+
+.snippets .commands{
+    display:block;
+    float:right;
+    margin-left:0;
+    position:relative;
+}
+
+
+.snippets b{
+    color:#A31523; 
+}
+
+
+.snippets .name_or_title{
+    display:block;
+    float:left;
+    width:450px;
+}
+
+
+.snippets .name_or_title a{
+    color:#A31523;
+    text-decoration:none;
+}
+
+
+.snippets .name_or_title a:hover{
+    text-decoration:underline;
+}
+
+.odd_row{
+    
+    background:#CCC;
+    
+    
+}
+
+
+.snippet{
+    display:block;
+    float:left;
+    width:30%;
+}
+
+
+
+
+
+.clear{
+    
+    clear:both;
+    
+}
+
+
+
+
+
+
+/*
+ * Color Palette:
+ * Yellow: #FFBE2C
+ * Red: #A31523
+ * DarkRed:#610F1C
+ * Gray: #CCC
+ * Sand C7B299
+ *
+ */
+
+.default_list .list_row{
+    border:1px solid #999;
+    -border-radius:5px;
+    height:110px;
+    margin:15px 0 15px 0;
+    -moz-border-radius:5px;
+    overflow:hidden;
+    padding:10px;
+    position:relative;
+    
+}
+
+.default_list .list_row h3 a{
+    color:#A31523;
+    font-family:Verdana,Arial,Helvetica;
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+
+.default_list .list_row .foto{
+    height:120px;
+    left:-15px;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    width:120px;
+}
+
+
+.default_list .list_row .foto img{
+    width:auto !important;
+}
+
+
+
+
+.default_list .list_row h3,
+.default_list .list_row p{
+    
+    margin:0 20px 0 130px;
+}
+
+
+.default_list .list_row a.vota_btn{
+    background-image:url(sprites.png);
+    background-position:-520px -383px;
+    bottom:5px;
+    display:block;
+    height:20px;
+    position:absolute;
+    right:5px;
+    text-indent:-5000px;
+    width:45px;
+}
+
+
+
+.default_list .list_row .topright{
+    top:5px;
+    position:absolute;
+    right:5px;
+}
+
+
+

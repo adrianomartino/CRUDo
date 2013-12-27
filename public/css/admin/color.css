@@ -1,0 +1,135 @@
+/*
+ *
+ * Admin Color.css
+ *
+ * palette:
+ * blue (dark):		#0C2757
+ * blue (lighter):		#134080
+ * red:			#800C1E
+ * yellow:			#D5922F
+ *
+ * 
+*/
+
+
+
+
+#add_new_list{
+    background:#D5922F;
+}
+
+
+#add_new_list a{ color:#C7B299 }
+
+#add_new_list ul a{
+  color:#800C1E;
+  }
+  
+  #add_new_list ul a:hover{
+    background:#800C1E;
+    color:#C7B299;
+  }
+
+#admin_header{
+  background:#0C2757;
+  color:#fff;
+  }
+  
+#admin_header a{
+  color:#fff;
+}
+
+
+a#aggiungi{ color:#A31523 }
+
+body {
+    background-color:#FFF;
+    color:#564b47;
+}
+
+#content{ background-color:#fff }
+
+
+
+#content div.odd_row{
+  background:#DDD;
+}
+
+
+.FormError{color:#f00}
+
+#items_menu{
+  background:#0C2757
+}
+
+
+#items_menu li{
+    color:#D5922F;
+}
+
+#items_menu a{
+    background:url(sprites.png) left 200px;
+    color:#CCC;
+}
+
+#items_menu a:hover
+{
+    background:#D5922F;
+    color:#800C1E;
+}
+
+
+#items_menu a.selected:hover
+{
+    background:inherit;
+    color:inherit;
+}
+
+
+
+
+#items_menu a.selected
+{
+    color:#D5922F;
+}
+
+
+input,
+textarea,
+select{
+    border:1px solid #CCC;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+border:1px solid #AAA;
+}
+
+
+#items_menu a.selected{
+    background-position:-200px -170px;
+    border:none;
+}
+
+
+#name_or_title{ color:#A31523 }
+
+
+#notifications .admin_errors span{ background:#F00; color:#FFF }
+#notifications .developer span{ background:#FC0 }
+#notifications .info_messages span{ background:#39F }
+#notifications .success_message span{ background:#9F6 }
+#notifications .user_errors span{ background:#F00; color:#FFF  }
+#notifications .warning_messages span{ background:#FC0 }
+
+
+
+
+
+.submit{
+    background:#800C1E;
+    background-position:left -305px !important;
+    border:2px outset #D5922F;
+    color:#D5922F;
+}

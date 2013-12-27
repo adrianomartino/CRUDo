@@ -1,0 +1,40 @@
+input,
+textarea,
+select{
+    border:1px solid #CCC;
+    display:block;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus{
+border:1px solid #CCC;
+}
+
+input[type='checkbox']{
+    float:left;
+    margin-right:5px;
+    
+}
+
+
+.submit{
+    background-position:left -305px !important;
+    color:#FFF;
+    height:25px;
+    width:70px;
+}
+
+label{
+    display:block !important;
+    font-weight:bold;
+    
+}
+
+
+.FormError{
+    
+    color:red;
+    
+}
